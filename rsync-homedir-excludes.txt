@@ -15,33 +15,38 @@
 # (uncomment the files you don't need)        #
 ###############################################
 
-#.android
-#.AndroidStudio*/
-#Android/Sdk
+.android
+.AndroidStudio*/
+anaconda3*
+Android/Sdk
+.atom
 #.gradle
 #.gvm
 #.grails/
 #.grails_history
 #.kde/share/apps/nepomuk
 #.local/share/notbit
+.local/share
 #.local/libvirt
 #.vagrant
 #.vagrant.d
-#.wine
+.wine
 #.twister
 #/twister
 #Applications/eclipse*
-#/Downloads
+clones
+/Downloads
 #*Popcorntime*
 #/.aMule
 #/Scribus
-#/VirtualBox*
+/VirtualBox*
 #/Nextcloud
 #_build
-#
+
 ## Ruby gems
-#.rvm
-#
+.rvm
+.rbenv*
+
 ## Add Game Folders here:
 #
 #/games
@@ -49,23 +54,23 @@
 #.steam
 #/Steam
 #.minecraft
-#.PlayOnLinux
-#
+
 ## Spotify
 #.config/spotify/Users
-#
+
 ## those folders contain only temporary Videos I want to watch
-#/Videos
-#/Movies
-#
+/Videos
+/Movies
+/Music
+
 ## some history files
-#.python_history
-#.bash_history
-#.zsh_history
-#
+.python_history
+.bash_history
+.zsh_history
+
 ## Python eggs
-#.local/lib/python*
-#
+.local/lib/python*
+
 ## Unlocked Plasma Vaults
 #/Vaults
 
